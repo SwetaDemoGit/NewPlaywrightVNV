@@ -1,0 +1,142 @@
+/* =========================
+   1. Text Formatting
+   ========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #222;
+    color: white;
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.justify {
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.indent {
+    text-indent: 40px;
+}
+
+/* =========================
+   2. Text Effects
+   ========================= */
+
+.underline {
+    text-decoration: underline;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.shadow {
+    font-size: 28px;
+    text-shadow: 2px 2px 4px #999;
+}
+
+.letter-space {
+    letter-spacing: 4px;
+}
+
+.word-space {
+    word-spacing: 15px;
+}
+
+/* =========================
+   3. Fonts
+   ========================= */
+
+.serif {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.sans {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mono {
+    font-family: "Courier New", monospace;
+}
+
+.font-size {
+    font-size: 24px;
+}
+
+.font-weight {
+    font-weight: 700;
+}
+
+.font-style {
+    font-style: italic;
+}
+
+/* =========================
+   4. Combined Example
+   ========================= */
+
+.card-title {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #aaa;
+}
+
+.card-text {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}

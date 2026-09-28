@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+    <h1>Student Registration</h1>
+
+    <form action="/register" method="post">
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter email" required>
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <br><br>
+
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="bangalore">Bangalore</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+        </select>
+
+        <br><br>
+
+        <label>Training Mode:</label>
+        <input type="radio" id="online" name="mode" value="online" checked>
+        <label for="online">Online</label>
+
+        <input type="radio" id="offline" name="mode" value="offline">
+        <label for="offline">Offline</label>
+
+        <br><br>
+
+        <label>Skills:</label>
+        <br>
+        <input type="checkbox" id="java" name="skills" value="java">
+        <label for="java">Java</label>
+
+        <input type="checkbox" id="python" name="skills" value="python">
+        <label for="python">Python</label>
+
+        <input type="checkbox" id="sql" name="skills" value="sql">
+        <label for="sql">SQL</label>
+
+        <br><br>
+
+        <label for="message">About Yourself:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" placeholder="Write about yourself"></textarea>
+
+        <br><br>
+
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+
+        <br><br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+
+</html>

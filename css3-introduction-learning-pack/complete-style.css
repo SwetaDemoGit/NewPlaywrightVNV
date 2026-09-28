@@ -1,0 +1,11 @@
+.external-message {
+    color: blue;
+    font-size: 18px;
+}
+
+.demo-box {
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 20px;
+}

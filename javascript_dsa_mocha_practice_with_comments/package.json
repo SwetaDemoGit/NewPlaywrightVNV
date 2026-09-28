@@ -1,0 +1,11 @@
+{
+  "name": "javascript-dsa-mocha-practice",
+  "version": "1.0.0",
+  "description": "30 JavaScript DSA coding practice solutions in Mocha-style function format",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "devDependencies": {
+    "mocha": "^11.0.0"
+  }
+}

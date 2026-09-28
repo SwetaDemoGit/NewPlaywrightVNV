@@ -1,0 +1,12 @@
+{
+  "name": "js-testing-module",
+  "version": "1.0.0",
+  "description": "Fresher-friendly JavaScript testing examples using Mocha",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.2"
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+<rect width="600" height="300" fill="#fff7ed"/>
+<rect x="100" y="35" width="400" height="135" fill="#ffffff" stroke="#333" stroke-width="4"/>
+<text x="300" y="95" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">TRAINING CLASSROOM</text>
+<text x="300" y="135" text-anchor="middle" font-family="Arial" font-size="22">HTML • Java • Python • Testing</text>
+<circle cx="155" cy="225" r="28" fill="#888"/>
+<circle cx="300" cy="225" r="28" fill="#888"/>
+<circle cx="445" cy="225" r="28" fill="#888"/>
+<rect x="120" y="255" width="70" height="15" fill="#555"/>
+<rect x="265" y="255" width="70" height="15" fill="#555"/>
+<rect x="410" y="255" width="70" height="15" fill="#555"/>
+</svg>

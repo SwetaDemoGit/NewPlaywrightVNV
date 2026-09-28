@@ -1,0 +1,12 @@
+{
+  "name": "javascript-testing-beginner-demos",
+  "version": "1.0.0",
+  "description": "Simple JavaScript testing examples using Mocha",
+  "main": "src/calculator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^11.0.0"
+  }
+}

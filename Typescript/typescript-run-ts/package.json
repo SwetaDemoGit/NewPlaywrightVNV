@@ -1,0 +1,8 @@
+{
+  "name": "typescript-run-ts",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "tsx": "^4.0.0"
+  }
+}

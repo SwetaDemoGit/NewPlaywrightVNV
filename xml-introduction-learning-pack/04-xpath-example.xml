@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <name>Rahul</name>
+        <course>Java</course>
+    </student>
+    <student>
+        <name>Priya</name>
+        <course>Python</course>
+    </student>
+</students>
+
+<!-- Example XPath expressions:
+     /students/student/name
+     /students/student[1]/name
+-->

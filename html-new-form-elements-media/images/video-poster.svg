@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
+<rect width="600" height="340" fill="#e8f0fe"/>
+<rect x="40" y="40" width="520" height="260" rx="18" fill="#ffffff" stroke="#333" stroke-width="4"/>
+<polygon points="270,120 270,220 370,170" fill="#333"/>
+<text x="300" y="270" text-anchor="middle" font-family="Arial" font-size="24">HTML5 VIDEO</text>
+</svg>

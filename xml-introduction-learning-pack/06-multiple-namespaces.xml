@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root
+    xmlns:book="http://example.com/books"
+    xmlns:store="http://example.com/store">
+
+    <book:book>
+        <book:title>XML Basics</book:title>
+    </book:book>
+
+    <store:name>ABC Book Store</store:name>
+
+</root>

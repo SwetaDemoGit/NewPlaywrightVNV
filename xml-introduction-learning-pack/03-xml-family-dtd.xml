@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student [
+    <!ELEMENT student (name, course)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT course (#PCDATA)>
+]>
+<student>
+    <name>Rahul</name>
+    <course>Java</course>
+</student>

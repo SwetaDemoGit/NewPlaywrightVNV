@@ -1,0 +1,11 @@
+{
+  "name": "typescript-oop-hands-on",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}

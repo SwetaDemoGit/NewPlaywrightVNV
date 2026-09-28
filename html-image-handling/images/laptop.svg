@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="300" viewBox="0 0 500 300">
+<rect width="500" height="300" fill="#f4f4f4"/>
+<rect x="95" y="45" width="310" height="175" rx="8" fill="#333"/>
+<rect x="115" y="65" width="270" height="135" fill="#dbeafe"/>
+<text x="250" y="145" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold">LAPTOP</text>
+<path d="M55 225 L445 225 L410 255 L90 255 Z" fill="#777"/>
+</svg>
