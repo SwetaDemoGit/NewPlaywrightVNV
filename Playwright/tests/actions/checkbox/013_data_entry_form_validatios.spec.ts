@@ -8,7 +8,7 @@ test.describe('Data Entry Form Validation', () => {
 
   test.beforeEach(async ({ page }) => {
     await page.goto(pageUrl);
-    //await expect(page.getByText('AutoPlay')).toBeVisible();
+    await expect(page.getByText('AutoPlay')).toBeVisible();
   });
 
 
@@ -16,7 +16,7 @@ test.describe('Data Entry Form Validation', () => {
 
   test('1. Page Load Validation', async ({ page }) => {
     // 1. Open the URL and verify the page loaded
-    await expect(page).toHaveURL("https://sdetqa.vercel.app/autoplay.html")
+    await expect(page).toHaveURL("https://sdetqa.vercel.app/autoplay")
     // 2. Verify the AutoPlay heading is visible
     await expect(page.getByText('AutoPlay')).toBeVisible();
   })
@@ -76,7 +76,7 @@ test.describe('Data Entry Form Validation', () => {
   })
 
   //4. Checkboxes validation
-  test.only('4. Checkboxes validation', async ({ page }) => {
+  test('4. Checkboxes validation', async ({ page }) => {
     
     // Select Sunday
 	  const sundayCheckbox = page.getByLabel('Sun');

@@ -22,7 +22,7 @@ test.describe("Handle dialogs/alerts", () => {
             expect(dialog.type()).toBe('alert')
             expect(dialog.message()).toContain("Simple alert!")
             dialog.accept()
-        });
+        }); 
         await page.getByRole('button', { name: 'Simple' }).click()
         //await page.waitForTimeout(5000)
     });
